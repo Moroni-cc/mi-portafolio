@@ -1,0 +1,1 @@
+export { habilidadesPrincipales, habilidadesAdicionales } from './info.js';

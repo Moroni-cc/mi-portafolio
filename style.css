@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
     --color-dark: #0D1117;
     --color-light: #FFFFFF;
@@ -8,4 +10,10 @@
     --color-deepBlue: #1E293B;
     --color-softGray: #8892B0;
     --background-image-gradient-main: linear-gradient(135deg, #1E293B 0%, #0D1117 100%);
+}
+
+/* Animación para scroll */
+.animate-visible {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
 }

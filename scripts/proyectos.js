@@ -1,0 +1,1 @@
+export { proyectos } from './info.js';
