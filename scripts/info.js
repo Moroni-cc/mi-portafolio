@@ -23,7 +23,7 @@ export const proyectos = [
         id: 1,
         titulo: "Plumbing Company",
         descripcion: "Sitio web corporativo para empresa de plomería con sistema de citas, catálogo de servicios y panel de administración. Desarrollado con React y Node.js.",
-        imagen: "../public/img4.jpeg",
+        imagen: "/img4.jpeg",
         tecnologias: ["React", "Node.js", "MongoDB", "Tailwind"],
         link: "#",
         destacado: true
@@ -32,7 +32,7 @@ export const proyectos = [
         id: 2,
         titulo: "Analytics Dashboard",
         descripcion: "Panel de análisis de datos en tiempo real con gráficos interactivos, reportes automatizados y exportación de datos. Stack MERN completo.",
-        imagen: "../public/img5.jpeg",
+        imagen: "/img5.jpeg",
         tecnologias: ["React", "Express", "MongoDB", "Chart.js"],
         link: "#",
         destacado: true
@@ -41,7 +41,7 @@ export const proyectos = [
         id: 3,
         titulo: "Task Manager",
         descripcion: "Aplicación de gestión de tareas con drag & drop, colaboración en equipo, notificaciones en tiempo real y sincronización multi-dispositivo.",
-        imagen: "../public/img6.jpeg",
+        imagen: "/img6.jpeg",
         tecnologias: ["Next.js", "Prisma", "PostgreSQL", "Socket.io"],
         link: "#",
         destacado: true
@@ -50,7 +50,7 @@ export const proyectos = [
         id: 4,
         titulo: "E-Commerce Platform",
         descripcion: "Plataforma de comercio electrónico con carrito de compras, pasarela de pagos integrada, gestión de inventario y panel de administración.",
-        imagen: "../public/img1.jpeg",
+        imagen: "/img1.jpeg",
         tecnologias: ["React", "Redux", "Stripe", "Firebase"],
         link: "#",
         destacado: false
@@ -59,7 +59,7 @@ export const proyectos = [
         id: 5,
         titulo: "Portfolio CMS",
         descripcion: "Sistema de gestión de contenidos para portafolios con editor visual, plantillas personalizables y SEO optimizado.",
-        imagen: "../public/img2.jpeg",
+        imagen: "/img2.jpeg",
         tecnologias: ["Next.js", "Sanity", "Tailwind", "Vercel"],
         link: "#",
         destacado: false
@@ -68,7 +68,7 @@ export const proyectos = [
         id: 6,
         titulo: "Weather App",
         descripcion: "Aplicación meteorológica con pronóstico extendido, alertas personalizadas y visualización de datos climáticos en mapas interactivos.",
-        imagen: "../public/img3.jpeg",
+        imagen: "/img3.jpeg",
         tecnologias: ["React", "OpenWeather API", "Leaflet", "PWA"],
         link: "#",
         destacado: false
