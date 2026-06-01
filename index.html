@@ -8,12 +8,10 @@
   <link rel="icon" href="./public/logop.png" type="image/x-icon">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <base target="_blank">
 </head>
 
 <body class="bg-dark text-light dark:bg-white dark:text-dark font-sans scroll-smooth overflow-x-hidden">
 
-  <!-- HEADER -->
   <header class="fixed top-0 w-full z-50 bg-dark/90 dark:bg-white/90 backdrop-blur-sm">
     <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
       <div class="flex items-center gap-2">
@@ -50,7 +48,6 @@
     </div>
   </header>
 
-  <!-- MENÚ MÓVIL -->
   <div id="menu-movil"
     class="fixed inset-0 z-60 bg-dark/95 dark:bg-white/95 backdrop-blur-md translate-x-full transition-transform duration-300 md:hidden">
     <div class="flex flex-col h-full p-8">
@@ -69,7 +66,6 @@
     </div>
   </div>
 
-  <!-- HERO -->
   <section
     class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-main dark:bg-gray-100 py-20">
     <div class="max-w-7xl mx-auto w-full flex flex-col items-center relative z-10 px-6">
@@ -80,7 +76,7 @@
       </div>
 
       <div class="relative flex justify-center items-center">
-        <!-- Client Review -->
+
         <div
           class="hidden sm:block bg-white/10 dark:bg-white/70 border border-white/10 dark:border-gray-200 backdrop-blur-md absolute -left-90 top-1/2 -rotate-5 rounded-2xl p-4 w-56 z-20">
           <div class="flex items-center gap-2 mb-2">
@@ -93,12 +89,10 @@
             Delivered on time with clean code."</p>
         </div>
 
-        <!-- Profile Image -->
         <div class="relative w-72 h-96 md:w-80 md:h-112">
           <img src="./public/profile.png" alt="Profile" class="w-full h-full object-cover rounded-3xl">
         </div>
 
-        <!-- Expertise Card -->
         <div
           class="hidden sm:block bg-white/10 dark:bg-white/70 border border-white/10 dark:border-gray-200 backdrop-blur-md absolute -right-90 top-1/2 rotate-5 rounded-2xl p-6 w-64 z-20">
           <p class="text-xs font-semibold mb-4 uppercase tracking-wider text-light dark:text-dark">My Expertise</p>
@@ -127,7 +121,6 @@
           </div>
         </div>
 
-        <!-- CTA Button -->
         <div class="absolute -bottom-4 left-1/2 -translate-x-1/2 z-30">
           <a href="./pages/proyectos.html"
             class="inline-flex items-center gap-2 bg-highlight text-dark font-bold px-6 py-3 rounded-full text-sm hover:scale-105 transition shadow-lg">
@@ -137,7 +130,6 @@
       </div>
     </div>
 
-    <!-- Background effects -->
     <div
       class="absolute top-150 left-1/2 -translate-x-1/2 -translate-y-1/2 w-200 h-200 bg-highlight/25 dark:bg-highlight/10 rounded-full blur-[120px] pointer-events-none">
     </div>
@@ -149,7 +141,6 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
   <section id="about" class="bg-gradient-main dark:bg-gray-100 py-24 px-6 relative overflow-hidden">
     <div class="max-w-3xl mx-auto text-center relative">
       <div
@@ -184,7 +175,6 @@
     </div>
   </section>
 
-  <!-- SKILLS -->
   <section id="skills" class="py-24 px-6 bg-dark dark:bg-gray-100">
     <div class="max-w-5xl mx-auto">
       <h2 class="text-highlight text-3xl md:text-4xl font-bold text-center mb-12">MY SKILLS</h2>
@@ -192,7 +182,6 @@
       <div class="grid lg:grid-cols-3 gap-8">
         <div class="lg:col-span-2">
           <div id="skills-grid" class="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <!-- Renderizado dinámico desde habilidades.js -->
           </div>
         </div>
 
@@ -214,13 +203,11 @@
         <h4 class="text-softGray dark:text-gray-500 text-xs font-semibold uppercase tracking-wider mb-6 text-center">
           Additional Skills</h4>
         <div id="additional-skills" class="flex flex-wrap justify-center gap-6">
-          <!-- Renderizado dinámico desde habilidades.js -->
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PROJECTS PREVIEW -->
   <section id="projects" class="py-24 px-6 bg-gradient-main dark:bg-gray-200">
     <div class="max-w-6xl mx-auto">
       <div class="grid lg:grid-cols-5 gap-8 items-center">
@@ -263,7 +250,6 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section id="contact" class="py-24 px-6 bg-dark dark:bg-gray-100">
     <div class="max-w-xl mx-auto">
       <div class="bg-light dark:bg-white rounded-xl p-8 md:p-10 shadow-2xl">
@@ -290,7 +276,6 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="bg-dark dark:bg-gray-100 border-t border-white/5 dark:border-gray-200 py-6 px-6">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-2">
@@ -313,7 +298,6 @@
     </div>
   </footer>
 
-  <!-- Scripts -->
   <script type="module" src="./scripts/darknode.js"></script>
   <script type="module" src="./scripts/main.js"></script>
 </body>

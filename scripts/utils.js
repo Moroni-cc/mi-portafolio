@@ -1,3 +1,4 @@
+// Esta parte tambien la hice yo pero con la ayuda con la ia
 export function initMenuToggle() {
     const btnToggle = document.getElementById('menu-toggle');
     const menuMovil = document.getElementById('menu-movil');

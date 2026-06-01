@@ -8,12 +8,10 @@
     <link rel="icon" href="../public/logop.png" type="image/x-icon">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <base target="_blank">
 </head>
 
 <body class="bg-dark text-light dark:bg-white dark:text-dark font-sans scroll-smooth overflow-x-hidden">
 
-    <!-- HEADER -->
     <header class="fixed top-0 w-full z-50 bg-dark/90 dark:bg-white/90 backdrop-blur-sm">
         <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
             <a href="../index.html" class="flex items-center gap-2">
@@ -50,7 +48,6 @@
         </div>
     </header>
 
-    <!-- MENÚ MÓVIL -->
     <div id="menu-movil"
         class="fixed inset-0 z-60 bg-dark/95 dark:bg-white/95 backdrop-blur-md translate-x-full transition-transform duration-300 md:hidden">
         <div class="flex flex-col h-full p-8">
@@ -69,7 +66,6 @@
         </div>
     </div>
 
-    <!-- HERO -->
     <section
         class="relative min-h-[50vh] flex items-center justify-center bg-gradient-main dark:bg-gray-100 pt-24 pb-12">
         <div class="max-w-7xl mx-auto w-full px-6 text-center">
@@ -85,10 +81,9 @@
         </div>
     </section>
 
-    <!-- PROYECTOS -->
     <section class="py-16 px-6 bg-dark dark:bg-white">
         <div class="max-w-6xl mx-auto">
-            <!-- Filtros -->
+
             <div class="flex flex-wrap justify-center gap-3 mb-12" id="filtros-proyectos">
                 <button data-filter="all"
                     class="filtro-btn active bg-highlight text-dark px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition hover:scale-105">
@@ -108,14 +103,11 @@
                 </button>
             </div>
 
-            <!-- Grid -->
             <div id="proyectos-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Renderizado dinámico desde proyectos.js -->
             </div>
         </div>
     </section>
 
-    <!-- CTA -->
     <section class="py-20 px-6 bg-gradient-main dark:bg-gray-100 text-center">
         <div class="max-w-2xl mx-auto">
             <h2 class="dark:text-gray-200 text-3xl md:text-4xl font-bold mb-4">¿Tienes un proyecto en mente?</h2>
@@ -129,7 +121,6 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer class="bg-dark dark:bg-gray-100 border-t border-white/5 dark:border-gray-200 py-6 px-6">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
             <div class="flex items-center gap-2">
@@ -152,7 +143,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
     <script type="module" src="../scripts/darknode.js"></script>
     <script type="module" src="../scripts/proyectos-render.js"></script>
 </body>

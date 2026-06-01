@@ -55,7 +55,7 @@ function renderizarHabilidades() {
 // ============================================
 // VALIDACIÓN DE FORMULARIO
 // ============================================
-// Esta parte no sabia como hacerlo de manera eficiente asi que lepedi ayuda a la ia 
+// Esta parte no sabia como hacerlo de manera eficiente asi que le pedi ayuda a la ia 
 
 function initFormulario() {
     const form = document.getElementById('contact-form');
